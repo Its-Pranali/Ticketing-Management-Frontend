@@ -187,7 +187,7 @@ function Login() {
             {/* Header Section */}
             <div className="card-header-section">
               <motion.div initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", duration: 0.8 }} className="logo-circle-new" >
-                <span>VOL</span>
+                Ticketing System
                 {/* <img src="../../public/assets/images/vol-logo.png" alt="" /> */}
                 <div className="logo-inner-glow" />
               </motion.div>

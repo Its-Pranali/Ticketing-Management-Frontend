@@ -10,7 +10,7 @@ import Swal from "sweetalert2";
 import { AnimatePresence, motion } from "framer-motion";
 
 function ViewTicket() {
-    const FILE_BASE_URL = "http://localhost/Pondichery/backend/public/uploads/";
+    const FILE_BASE_URL = "https://ticketing-management-backend.onrender.com/public/uploads/";
     const { id } = useParams();
     const [tickets, setTickets] = useState([]);
     const [ticketReply, setTicketReply] = useState(null);
